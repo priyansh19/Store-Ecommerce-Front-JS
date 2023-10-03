@@ -10,7 +10,7 @@ export default function HomePage({featuredProduct, newProducts}) {
     <div>
       <Header/>
       <Featured product={featuredProduct}/>
-      <NewProducts product={newProducts}/>
+      <NewProducts products={newProducts}/>
     </div>
   )
 }
